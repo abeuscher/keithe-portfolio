@@ -1,0 +1,36 @@
+//config
+$cdn-path:"";
+$local-path:"/wp-content/themes/keith/";
+$img-path:$local-path+"images/";
+$font-path:$local-path+"fonts/";
+
+//Breakpoints
+$bps: (xs: 0, s:641px, m:1025px, l:1201px,xl:1921px);
+
+$gutter-width:25px;
+$max-width:1280px;
+
+//color-values
+$white:#ffffff;
+$black:#000000;
+$off-black:#4a4a4a;
+$off-white:#f3f3f3;
+$gray:#333;
+$light-gray:#ccc;
+$blue:#0C3D87;
+$red:red;
+
+//fonts
+$body-font:'Droid Sans', serif;
+$header-font:'Fjalla One', sans-serif;
+$nav-font:'Droid Sans', sans-serif;
+
+//colors
+$body-bg-color:$white; 
+$body-text-color:$black;
+$body-link-color:$blue;
+$body-link-hover-color:darken($blue,40%);
+
+$local-path:"/wp-content/themes/mikehsu/";
+$img-path:$local-path+"images/";
+$font-path:$local-path+"fonts/";

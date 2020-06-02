@@ -1,0 +1,13 @@
+extends inc/page.pug
+block template
+  :php
+    /*
+    Template Name: Default Page Template
+    */
+block content
+    section.content
+        .inner.max-width
+            .wysiwyg.page-content
+                :php
+                    the_content();
+

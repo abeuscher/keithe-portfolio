@@ -1,0 +1,33 @@
+.page-header {
+    padding:$gutter-width 0;
+    .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;        
+    }
+    .logo {
+        flex-basis: 100%;
+        @include bp(m) {
+            flex-basis: 50%;
+            text-align: left;
+        }
+    }
+    nav {
+        flex-basis: 100%;
+        text-align: center;
+        ul {
+            list-style: none;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin-left: 1em;
+            }
+        }
+        @include bp(m) {
+            flex-basis: 50%;
+            text-align: right;
+        }
+    }
+}

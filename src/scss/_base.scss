@@ -1,0 +1,46 @@
+body {
+  font-family: $body-font;
+  color: $body-text-color;
+  background: $off-white;
+  min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: $header-font;
+}
+a {
+  color:$body-link-color;
+  text-decoration: none;
+  &:hover {
+    color:$body-link-hover-color;
+    text-decoration: underline;
+  }
+}
+h2 {
+  margin-bottom:$gutter-width;
+  font-size:2.4em;
+}
+main {
+  @include bp(m) {
+    min-height:80vh;
+  }
+}
+.wysiwyg {
+  font-size:1.2em;
+  line-height:2;
+  a {
+    text-decoration:none;
+    &:hover {
+      text-decoration:underline;
+    }
+  }
+}
+.max-width {
+  max-width:$max-width;
+  margin:0 auto;
+}
